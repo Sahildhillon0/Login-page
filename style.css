@@ -1,4 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+}
+
 .body{
-    background-image: url("1331008.png");
+    background-image:url("1331008.png"); 
     background-size: cover;
+}
+
+.h_div{
+    background-color: rgba(248, 248, 248, 0.522); 
+    height: 30px; 
+    border-radius: 15px;
+    box-shadow: 0 0 25px #000;
+    margin-top: 1%;
+    display: flex;
+}
+
+.m_loc{
+    width: 25px;
+    height: 25px;
+}
+
+.Login{
+    margin-left: 44%;
+    font-family: "poppins",sans-serif;
+    width:auto;
+    font-size: large;
+    font-weight: 800;
+}
+
+#signup{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#Signup_text{
+    margin-top: 1.25px;
+    font-family: "poppins",sans-serif;
+    width: 90px;
+    font-size: large;
+    font-weight: 500;
+}
+
+#m_signup{
+    margin-top: 5px;
+}
+
+#loc{
+    align-items: center;
+    margin-left: 1%;
+    margin-top: 5px;
+
+}
+
+#home{
+    width: 25px;
+    height: 25px;
+    margin-left: 40.5%;
+}
+
+.i_house{
+    margin-top: 13px;
+}
+
+#home a:hover{
+    color: rgb(198, 58, 154);
+
+}
+
+.link{
+    color: black;
+    width: 25px;
 }
