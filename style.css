@@ -181,7 +181,7 @@
 }
 
 #btn:hover{
-    border:solid;
     box-shadow: 0 0 65px #d8b39f;
+    background-color: #e1a585;
     cursor: pointer;
 }
